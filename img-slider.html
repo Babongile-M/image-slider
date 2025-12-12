@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="img-slider.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id = "wrapper">
+        <div id = "img-slider">
+            <button class="slider-btn prev" onclick="moveSlide(-1)">‹</button>
+
+            <div class = "slider front">
+                <img src = "family_pics/happy-family-autumn-walk-father-daughters-walking-park-enjoying-beautiful-nature-157622146.jpg">
+            </div>
+            
+            <div class = "slider left">
+                <img src = "family_pics/happy-multigeneration-family-having-meal-600nw-2176407111.jpg">
+            </div>
+            
+            <div class = "slider right">
+                <img src = "family_pics/family-beach-vacation-te-220811-59ec25.jpg">
+            </div>
+
+            <button class="slider-btn next" onclick="moveSlide(1)">›</button>
+        </div>
+
+        <p>This Image slider works with both buttons and automatically.</p>
+    </div>
+
+    <script src = "img-slider.js"></script>
+</body>
+</html>
